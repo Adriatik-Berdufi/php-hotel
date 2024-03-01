@@ -12,12 +12,20 @@
 </head>
 
 <body>
-    <div class="container">
-
-        <div>
-                <ul>
+    <div class="container text-center mt-5">
+        <h1>Lista Hotels</h1>
+        <div class="mt-5">
+                <ul class="d-flex gap-3">
                     <?php foreach ($hotels as $hotel) : ?>
-                        <li>nome hotel: <?= $hotel['name'] ?></li>
+                        <li style="list-style-type: none;" class="card text-start p-3">
+                                <div classmb-3><?= $hotel['name'] ?></div>
+                                <div classmb-3><?= $hotel['description'] ?></div>
+                                <div classmb-3>parcheggio:<?= $hotel['parking'] ? 'Si' : 'No'?></div>
+                                <div classmb-3>voto:<?= $hotel['vote'] ?></div>
+                                <div classmb-3>distnza:<?= $hotel['distance_to_center'] ?>km</div>
+
+
+                        </li>
                     <?php endforeach; ?>
                 </ul>
         </div>

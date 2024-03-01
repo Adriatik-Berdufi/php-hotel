@@ -2,7 +2,7 @@
 - Partiamo da questo array di hotel. https://www.codepile.net/pile/OEWY7Q1G
 - Stampare tutti i nostri hotel con tutti i dati disponibili.
 
-- Completate l'esercizio di ieri e organizzate il codice dividendo dati, logica e template.
+- organizzate il codice dividendo dati, logica e template.
 - Infine aggiungete i filtri come visto oggi a lezione (potete filtrate "manualmente" o con il metodo array_filter).
 ## Bonus
 - Aggiungere un form ad inizio pagina che tramite una richiesta GET permetta di filtrare gli hotel che hanno un parcheggio.
